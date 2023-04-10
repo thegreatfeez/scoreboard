@@ -52,6 +52,8 @@ function saveScores(){
   domGuest.textContent +=saveGuest;
 
   homeEl.textContent = 0;
+  homeCount = 0;
 
   guestEl.textContent = 0;
+  guestCount = 0;
 }
