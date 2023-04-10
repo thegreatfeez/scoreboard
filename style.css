@@ -1,0 +1,107 @@
+@font-face{
+  font-family: scoreboard;
+  src: url(scoreboard.ttf)
+}
+body{
+  margin:150px auto;
+  color: #F5AC48;
+  background-color: black;
+}
+
+/* Style the scoreboard container */
+.scoreboard{
+  margin: auto;
+  font-family:scoreboard;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 575px;
+  height: 500px;
+  align-items: center;
+  background-image: url(image/uzumaki.jpeg);
+  background-size: contain;
+  border-radius: 10px;
+}
+/* Style the scorecounter container */
+.score-counter{
+  display: flex;
+}
+/* Style the team divs */
+.team {
+text-align: center;
+padding: 20px;
+}
+
+/* Style the team headings */
+.team h2 {
+margin-top: 0;
+font-size: 25px;
+font-weight: 700;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercase;
+}
+
+/* Style the score display */
+.team p {
+font-size: 90px;
+font-weight: 400;
+color:#2C2B2E;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+width: 155px;
+margin: 20px auto;
+border-radius: 5px;
+}
+#home-score{
+  background-image: url(image/hidden-leaf.jpeg);
+  background-size: contain;
+}
+
+#guest-score{
+  background-image: url(image/hidden\ sand.jpeg);
+  background-size: contain;
+}
+
+/* Style the score buttons */
+.team button {
+margin: 10px auto;
+padding: 10px;
+width: 50px;
+font-family: scoreboard;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #983D47;
+border: 2px solid #983D47;
+border-radius: 5px;
+cursor: pointer;
+background-color: inherit;
+}
+
+/* Style the reset button */
+#save-button {
+display: block;
+margin: 20px auto;
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+color: #2C2B2E;
+background-color: #EA7B1B;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+position: sticky;
+top: 0;
+}
+.save-container{
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+/*Style the profile pictures */
+.hokage, .kazakage{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
